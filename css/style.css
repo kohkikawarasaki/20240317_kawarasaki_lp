@@ -205,6 +205,9 @@ header {
     background-color: #B31667;
     padding: 30px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .service-box--right-top {
@@ -226,10 +229,6 @@ header {
 .service-cont img {
     width: 40%;
     margin: 10px;
-}
-
-.box__text {
-    margin: auto;
 }
 
 .service-cont h3 {
